@@ -7,7 +7,7 @@ def random_pairs(names)
 	array_pairs.each do |pairs|
 
 		if pairs.length == 1
-			array_pairs.chop
+			array_pairs.chop #not an array method
 			array.last << array_pairs[-1]
 		else
 			array << pairs

@@ -6,4 +6,9 @@ class RandomPairs < MiniTest::Test
 		pairs = random_pairs(['Chloe', 'Shay'])
 		assert_equal(1, pairs.count)
 	end
+
+	def test_3_names_1_pair
+		pairs = random_pairs(['Chloe', 'Shay', 'Drew'])
+		assert_equal(1, pairs.count)
+	end
 end
