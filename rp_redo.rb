@@ -6,7 +6,7 @@ def random_pairs(names)
 	array_pairs = names.each_slice(2) 
 	array_pairs.each do |pairs|
 
-		if pairs.length - 2 == 0
+		if pairs.length - 2 == 0 # or pairs.length == 2 (just being different)
 			array << pairs
 		else
 			array.last << pairs
@@ -14,28 +14,3 @@ def random_pairs(names)
 	end
 	array
 end
-
-
-
-
-
-
-
-
-
-
-
-
-# 	array_pairs.each do |pairs|
-
-# 		if pairs.length == 2
-# 			array << pairs
-
-# 		else 
-# 			array.last << pairs
-# 		end
-# 	end
-
-# array
-
-# end
