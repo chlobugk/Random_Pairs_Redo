@@ -1,4 +1,3 @@
 # Random_Pairs_Redo
-# off_by1_redo
-# off_by1_redo
-# off_by1_redo
+
+This is a test with functionality that tests if your raffle ticket number is the winning raffle ticket number. There are also tests to see if your raffle ticket was off by only 1 number. 
